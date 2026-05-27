@@ -260,10 +260,15 @@ table th {
    font-size: 1.3em;
 }
 
+table td {
+    padding: 15px;
+}
+
 table tr {
    background-color:  #131212;
    font-size: 1em;
    height: 50px;
+   padding: 10px;
   
   
    
