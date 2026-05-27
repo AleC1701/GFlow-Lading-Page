@@ -244,3 +244,36 @@ div#termos {
     margin: auto;
    
 }
+
+table {
+    width: 700px;
+    height: 600px;
+    
+    
+}
+
+table th {
+   background-color:  #640f0f;
+   
+   
+}
+
+table tr {
+   background-color:  #131212;
+   font-size: 1em;
+  
+  
+   
+}
+
+.separacao {
+    
+    width: 200px;
+    text-align: center;
+}
+
+.check {
+    width: 200px;
+    text-align: center;
+    
+}
