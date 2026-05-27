@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    
+}
+
+body {
+    background-color: #080808;
+}
+header {
+    background-color:#000000;
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+div#logoheader {
+    font-size: 2em;
+    padding: 10px;
+    flex: auto;
+   
+}
+span#burger {
+    font-size: 3em;
+    font-weight: 600;
+    padding: 10px;
+
+   
+}
+
+/*
+nav#menu {
+ 
+    background-color: #000000;
+    max-width: 700px;
+    flex: auto;
+    
+
+}
+
+nav#menu h1 {
+    font-size: 3em;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+nav#menu a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    
+    
+}
+
+nav#menu li {
+
+    background-color: #242422;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    list-style: none;
+    width: 500px;
+    
+}
+
+nav#menu li:hover {
+    background-color: #000000;
+}
+
+nav#menu div#outros {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 15px;
+    
+}
+
+nav#menu div.suporte a:hover {
+    color: #37cec1;
+}
+
+nav#menu div.baixar a:hover {
+   color: #37cec1;
+}
+
+nav#menu div#divisoria {
+    font-size: 2em;
+    margin-left: 30px;
+}
+
+nav#menu div#conta {
+    font-size: 1.5em;
+    margin-top: 25px;
+    margin-left: 20px;
+    
+}
+
+nav#menu div.cadastro a:hover {
+   color: #37cec1;
+}
+
+nav#menu div.login a:hover {
+   color: #37cec1;
+}
+
+nav#menu div#logomenu {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    font-size: 1.3em;
+    color: #37cec1;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+*/
+main {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #131212;
+    color: white;
+    
+}
+
+main p {
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+  
+    
+}
+
+#conteiner {
+    background-image: url(..//imagens/imgprincipal.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 768px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: auto;
+   
+    
+}   
+
+#conteiner h1 {
+    
+    font-size: 3em;
+    color: #ffffff;
+    padding-left:10px;
+    text-shadow: 5px 2px 5px rgba(255, 255, 255, 0.041);
+    
+
+}
+
+
+    div#botaoexperimente {
+    background-color: #06796f;
+    max-width: 670px;
+    padding: 20px;
+    font-size: 1.3em;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    transition: 0.3s;
+   
+    
+}
+
+div#botaoexperimente a {
+    text-decoration:none;
+    color: #ffffff;
+}
+
+div#botaoexperimente:hover{
+    
+     transform: translateY(-3px);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+div#botaoplanos {
+    background-color:#000000;
+    max-width: 670px;
+    padding: 20px;
+    font-size: 1.3em;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: 1px solid white;
+     transition: 0.3s;
+}
+
+div#botaoplanos a {
+    text-decoration:none;
+    color: #ffffff;
+}
+
+div#botaoplanos:hover{
+    
+     transform: translateY(-3px);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+
+div#termos {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.8em;
+    font-weight: lighter;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+   
+}
