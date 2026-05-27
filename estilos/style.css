@@ -137,11 +137,12 @@ main {
     align-items: center;
     background-color: #131212;
     color: white;
+    margin: 10px;
     
 }
 
 main p {
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     display: flex;
