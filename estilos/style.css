@@ -145,22 +145,22 @@ main p {
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     margin: auto;
+    padding: 15px;
   
     
 }
 
 #conteiner {
-    background-image: url(..//imagens/imgprincipal.png); 
+    background-image: url(../imagens/imgprincipal.png); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 98%;
+    width: 100%;
     max-width: 765px;
     height: 600px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -253,8 +253,7 @@ table {
 }
 
 table th {
-   background-color:  #640f0f;
-   
+   background-color:  #06796f;
    
 }
 
