@@ -58,7 +58,7 @@ nav#menu {
     top: 0;
     right: -1%;
     height: 100vh;
-    
+    display: none;
 
 }
 
@@ -67,7 +67,7 @@ nav#menu h1 {
     margin-left: 50px;
     margin-bottom: 25px;
     padding: 10px;
-    display: none;
+    
 }
 
 nav#menu a {
