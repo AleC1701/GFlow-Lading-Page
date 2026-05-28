@@ -260,7 +260,7 @@ div#termos {
    
 }
 
-table {
+.tabelabeneficios {
     max-width: 600px;
     height: 600px;
     border-collapse: collapse;
@@ -269,15 +269,15 @@ table {
     
 }
 
-td, th {
+.tabelabeneficios td, th {
     padding: 15px;
 }
-table th {
+.tabelabeneficios table th {
    
    font-size: 1.3em;
 }
 
-table tr {
+.tabelabeneficios table tr {
    background-color:  #131212;
    font-size: 1em;
    height: 50px;
@@ -287,7 +287,7 @@ table tr {
    
 }
 
-tr:hover {
+.tabelabeneficios .trefeito:hover {
     background-color: #242323;
 }
 
@@ -343,12 +343,21 @@ section.planos .txtbandeiras {
     display: flex;
 }
 
-.recursos h1{
-    list-style: none;
-    text-align: center;
-    font-size: 1.5em;
+.tabelarecursos {
+    max-width: 600px;
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
 }
-.recursos li{
-    list-style: none;
+
+.tabelarecursos .recursosplanos {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.tabelarecursos td {
+   padding: 5px;
     
 }
