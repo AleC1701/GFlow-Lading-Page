@@ -323,16 +323,32 @@ section.planos .bandeiras {
    
     width: 160px;
     margin: auto;
+    margin-top: 20px;
 }
 
 section.planos .ftbandeiras {
 
     display: none;
+    
 }
 
 section.planos .txtbandeiras {
     text-align: center;
     text-decoration: underline;
+    margin-bottom: 20px;
 
 }
 
+.recursos {
+    display: flex;
+}
+
+.recursos h1{
+    list-style: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+.recursos li{
+    list-style: none;
+    
+}
