@@ -307,19 +307,32 @@ table .check:hover {
     background-color: #06796f;
 }
 
-.planos {
+section.planos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.planos h1 {
+section.planos h1 {
     text-align: center;
     font-size: 1.5;
     
 }
 
-.planos .bandeiras {
+section.planos .bandeiras {
    
     width: 160px;
+    margin: auto;
 }
+
+.ftbandeiras {
+
+    display: none;
+}
+
+section.planos .txtbandeiras {
+    text-align: center;
+    text-decoration: underline;
+
+}
+

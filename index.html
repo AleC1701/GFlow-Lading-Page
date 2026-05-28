@@ -179,6 +179,20 @@
             <p>Escolha um plano Premium e ouça música sem anúncios de forma ilimitada no seu celular, alto-falantes e em outros dispositivos. Vários métodos de pagamento. Cancele quando quiser.</p>
 
             <img src="imagens/bandeiras-cartões.png" class="bandeiras">
+
+            <p class="txtbandeiras">e +9 outros</p>
+
+            <img class="ftbandeiras"src="imagens/bandeiras.png">
+
+            <ul>
+                <li>Música sem anúncios</li>
+                <li>Baixe pra ouvir no modo offline</li>
+                <li>Ouça músicas na ordem que quiser</li>
+                <li>Áudio de qualidade alta</li>
+                <li>Crie uma playlist com quem você quiser para ouvir ao mesmo tempo</li>
+                <li>Ouça as músicas na ordem que você quiser</li>
+                <li>Insights de stream (Sua Cápsula sonora)</li>
+            </ul>
         </section>
    </main>
 
@@ -203,7 +217,19 @@
             
                 menu.style.display = 'none'
             }
+        var txtbandeiras =  document.querySelector('.txtbandeiras')
+        var bandeiras =  document.querySelector('.ftbandeiras')
 
+        txtbandeiras.addEventListener('mouseover', aparecer)
+        txtbandeiras.addEventListener('mouseout', sumir)
+
+        function aparecer () {
+            bandeiras.style.display = 'block'
+        }
+
+        function sumir () {
+            bandeiras.style.display = 'none'
+        }
         
    </script>
 </body>
