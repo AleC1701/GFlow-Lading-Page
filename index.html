@@ -16,6 +16,9 @@
     <span id="burger" class="material-symbols-outlined"> menu
         </span>
     <nav id="menu">
+
+        <span id="fechar" class="material-symbols-outlined">close</span>
+
         <h1>Planos Premium</h1>
         <ul>
             <li><a href="#">Premium Individual</a></li>
@@ -166,7 +169,7 @@
             <td class="check">
 
                 <span class="material-symbols-outlined">check_circle</span>
-                
+
             </td>
         </tr>
 </table>
@@ -178,17 +181,23 @@
 
     var burger = document.getElementById('burger')
     var menu = document.getElementById('menu')
-    burger.addEventListener('click', abrirMenu)
+    var fechar = document.getElementById('fechar')
+
+        burger.addEventListener('click', abrirMenu)
+        fechar.addEventListener('click', fecharMenu)
+
      function abrirMenu() {
             
-            if (menu.style.display == 'block') {
-                menu.style.display = 'none'
-                burger.innerText ='menu'
-            } else {
-                menu.style.display = 'block'
-              
-            }
+            menu.style.display = 'block'
         } 
+
+       
+            function fecharMenu() {
+            
+                menu.style.display = 'none'
+            }
+
+        
    </script>
 </body>
 </html>

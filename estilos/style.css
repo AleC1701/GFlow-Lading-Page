@@ -36,16 +36,27 @@ span#burger {
     font-weight: 600;
     padding: 10px;
     
+    
 
    
 }
 
-/*
+span#fechar {
+    font-size: 3em;
+    font-weight: 600;
+    padding: 10px;
+    
+}
+
+
 nav#menu {
  
     background-color: #000000;
     max-width: 700px;
-    flex: auto;
+    position: fixed;
+    top: 0;
+    right: -1%;
+    height: 100vh;
     
 
 }
@@ -68,13 +79,12 @@ nav#menu a {
 nav#menu li {
 
     background-color: #242422;
-    margin-top: 10px;
-    margin-left: 80px;
-    margin-bottom: 20px;
+    margin: 20px;
     padding: 20px;
     border-radius: 5px;
     list-style: none;
     width: 500px;
+    
     
 }
 
@@ -129,7 +139,7 @@ nav#menu div#logomenu {
     
 }
 
-*/
+
 main {
     width: 100%;
     min-height: 90vh;
