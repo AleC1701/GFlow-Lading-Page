@@ -196,6 +196,7 @@ main p {
     div#botaoexperimente {
     background-color: #06796f;
     max-width: 600px;
+    width: 380px;
     padding: 20px;
     font-size: 1em;
     text-align: center;
@@ -223,6 +224,7 @@ div#botaoexperimente:hover{
 div#botaoplanos {
     background-color:#000000;
     max-width: 600px;
+    width: 380px;
     padding: 20px;
     font-size: 1.3em;
     text-align: center;
