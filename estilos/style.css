@@ -306,3 +306,8 @@ tr:hover {
 table .check:hover {
     background-color: #06796f;
 }
+
+.planos h1 {
+    text-align: center;
+    font-size: 1.5;
+}
