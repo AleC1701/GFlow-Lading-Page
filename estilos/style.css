@@ -345,19 +345,19 @@ section.planos .txtbandeiras {
 
 .tabelarecursos {
     max-width: 600px;
-    width: 400px;
     height: 400px;
     border-collapse: collapse;
 }
 
 .tabelarecursos .recursosplanos {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
     text-align: center;
     
 }
 
-.tabelarecursos td {
-   padding: 5px;
+.tabelarecursos td{
+   padding: 10px;
+   
     
 }
