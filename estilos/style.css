@@ -309,9 +309,10 @@ table .check:hover {
 
 section.planos {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
+    
 }
 section.planos h1 {
     text-align: center;
@@ -358,6 +359,66 @@ section.planos .txtbandeiras {
 
 .tabelarecursos td{
    padding: 10px;
+   
+    
+}
+
+
+div.individual {
+    
+    width: 600px;
+    height: 450px;
+    background-color: #2e2d2d;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+   
+    
+}
+
+div.individual h1 {
+    background-color: #d1b3f8;
+    color: #000000;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+}
+
+div.botaoexperimenteind {
+
+    background-color: #d1b3f8;
+    max-width: 600px;
+    width: 380px;
+    padding: 20px;
+    font-size: 1em;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+div.botaoexperimenteind a {
+    text-decoration:none;
+    color: #000000;
+}
+
+div.botaoexperimenteind:hover{
+    
+     transform: translateY(-3px);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+
+div.universitario {
+    
+    width: 600px;
+    height: 450px;
+    background-color: #2e2d2d;
+    border-radius: 10px;
+    
    
     
 }
