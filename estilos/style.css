@@ -366,7 +366,8 @@ section.planos .txtbandeiras {
 
 div.individual {
     
-    width: 600px;
+    max-width: 600px;
+    width: 380px;
     height: 450px;
     background-color: #2e2d2d;
     border-radius: 10px;
