@@ -368,7 +368,6 @@ div.individual {
     
     max-width: 600px;
     width: 380px;
-    height: 450px;
     background-color: #2e2d2d;
     border-radius: 10px;
     margin-top: 20px;
@@ -385,11 +384,16 @@ div.individual h1 {
     padding: 5px;
 }
 
+div.individual li {
+    
+    padding:5px
+}
+
 div.botaoexperimenteind {
 
     background-color: #d1b3f8;
     max-width: 600px;
-    width: 380px;
+    width: 350px;
     padding: 20px;
     font-size: 1em;
     text-align: center;
